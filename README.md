@@ -1,10 +1,19 @@
 # Ninebot Scooter integration for Home Assistant
 
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=DominikLe&repository=ninebot-ha-integration&category=integration)
+
 **NOTE: This integration is in an alpha state. Feel free to fork or help pushing PRs improving this integration.**
 
 It connects and polls data from a Ninebot Scooter using BLE.
 
-## Manual installation
+## Installation
+
+### HACS
+
+Click the badge above, or add this repository as a custom repository in HACS
+manually (category: Integration), then install "Ninebot Scooter" from HACS.
+
+### Manual
 
 1. Copy the directory `custom_components/ninebot_scooter` into you installation under
    `<config_dir>/custom_components`.
