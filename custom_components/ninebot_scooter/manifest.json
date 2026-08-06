@@ -14,8 +14,8 @@
         "bluetooth_adapters"
     ],
     "documentation": "https://github.com/DominikLe/ninebot-ha-integration",
-    "issue_tracker": "https://github.com/DominikLe/ninebot-ha-integration/issues",
     "iot_class": "local_push",
+    "issue_tracker": "https://github.com/DominikLe/ninebot-ha-integration/issues",
     "loggers": [
         "ninebot_ble"
     ],
