@@ -7,12 +7,14 @@
         }
     ],
     "codeowners": [
-        "@ownbee"
+        "@DominikLe"
     ],
     "config_flow": true,
     "dependencies": [
         "bluetooth_adapters"
     ],
+    "documentation": "https://github.com/DominikLe/ninebot-ha-integration",
+    "issue_tracker": "https://github.com/DominikLe/ninebot-ha-integration/issues",
     "iot_class": "local_push",
     "loggers": [
         "ninebot_ble"
