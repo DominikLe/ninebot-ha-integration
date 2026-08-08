@@ -1,5 +1,9 @@
 # Ninebot Scooter integration for Home Assistant
 
+> **This is a fork** of [ownbee/ninebot-integration](https://github.com/ownbee/ninebot-integration), maintained here with bug fixes,
+> CI validation, and packaging improvements. See the [Changelog](#changelog) below for what changed
+> compared to upstream.
+
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=DominikLe&repository=ninebot-ha-integration&category=integration)
 
 **NOTE: This integration is in an alpha state. Feel free to fork or help pushing PRs improving this integration.**
@@ -21,6 +25,21 @@ manually (category: Integration), then install "Ninebot Scooter" from HACS.
 2. Restart home assistant.
 
 ## Changelog
+
+### 0.0.3
+
+- Fixed the Bluetooth-discovery confirmation dialog rendering with an empty body
+  (no `strings.json`/`translations` shipped with the integration at all).
+- Added a CI pipeline (hassfest, HACS validation, unit tests) that runs on every
+  push/PR and daily.
+- Added unit tests for the pure conversion logic (`device.py`, `sensor.py`) so
+  regressions like the 0.0.2 setup bug get caught automatically.
+- Added a `documentation`/`issue_tracker` link and sorted keys in `manifest.json`
+  (required by hassfest).
+- Added `LICENSE` (MIT) and repository topics (required for HACS validation).
+- Added an original brand icon (`custom_components/ninebot_scooter/brand/`).
+- Repository is now public so HACS custom-repository installs work without a
+  personal access token.
 
 ### 0.0.2
 
