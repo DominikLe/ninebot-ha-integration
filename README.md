@@ -3,6 +3,10 @@
 > **This is a fork** of [ownbee/ninebot-integration](https://github.com/ownbee/ninebot-integration), maintained here with bug fixes,
 > CI validation, and packaging improvements. See the [Changelog](#changelog) below for what changed
 > compared to upstream.
+>
+> **AI disclosure:** Changes in this fork (fixes, tests, CI, packaging, this README) were made with
+> AI assistance (Claude). Fixes were verified against a real Home Assistant instance and a physical
+> scooter where noted in the changelog; review the code yourself before relying on it.
 
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=DominikLe&repository=ninebot-ha-integration&category=integration)
 
